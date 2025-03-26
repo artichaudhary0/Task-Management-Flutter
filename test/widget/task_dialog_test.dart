@@ -2,7 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter_test/flutter_test.dart';
 import 'package:get/get.dart';
 import 'package:todo_list/controllers/task_controller.dart';
-import 'package:todo_list/utils/edit_add_task_dialogue.dart';
+import 'package:todo_list/widgets/custom_task_dialogue.dart';
 
 void main() {
   testWidgets("Should open task dialog and add a new task", (

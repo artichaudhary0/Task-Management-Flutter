@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 import '../controllers/task_controller.dart';
-import 'custom_theme.dart';
+import '../utils/custom_theme.dart';
 
 class SortDialog extends StatelessWidget {
   final TaskController taskController = Get.find<TaskController>();

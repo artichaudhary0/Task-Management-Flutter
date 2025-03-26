@@ -1,11 +1,11 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
-import 'package:todo_list/utils/custom_textfield.dart';
+import 'package:todo_list/widgets/custom_textfield.dart';
 import '../controllers/task_controller.dart';
 import '../utils/custom_theme.dart';
-import '../utils/date_formatter.dart';
-import '../utils/edit_add_task_dialogue.dart';
-import '../utils/sort_dialogue.dart';
+import '../utils/custom_date_formatter.dart';
+import '../widgets/custom_task_dialogue.dart';
+import '../widgets/custom_sort_dialogue.dart';
 
 class TodoScreen extends StatelessWidget {
   final TaskController taskController = Get.put(TaskController());
@@ -145,7 +145,7 @@ class TodoScreen extends StatelessWidget {
                                     MainAxisAlignment.spaceBetween,
                                 children: [
                                   Text(
-                                    "Due: ${DateFormatter.formatDate(task.dueDate)}",
+                                    "Due: ${CustomDateFormatter.formatDate(task.dueDate)}",
                                     style: AppTextStyles.normal.copyWith(
                                       color: AppColors.black,
                                       fontSize: 14,

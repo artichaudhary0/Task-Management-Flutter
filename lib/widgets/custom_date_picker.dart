@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import 'custom_theme.dart';
-import 'date_formatter.dart';
+import '../utils/custom_theme.dart';
+import '../utils/custom_date_formatter.dart';
 
 class CustomDatePicker extends StatelessWidget {
   final DateTime selectedDate;
@@ -47,7 +47,7 @@ class CustomDatePicker extends StatelessWidget {
         }
       },
       child: Text(
-        "Select Due Date: ${DateFormatter.formatDate(selectedDate)}",
+        "Select Due Date: ${CustomDateFormatter.formatDate(selectedDate)}",
         style: const TextStyle(color: AppColors.primary),
       ),
     );
