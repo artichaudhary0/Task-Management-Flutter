@@ -95,7 +95,7 @@ https://drive.google.com/drive/folders/1FNwga6iddJ8eBw5uCaFz4hiijeyHDx1p?usp=sha
 
 ## 🚀 Installation & Setup
 - 1️⃣ Clone the repository
-    - git clone https://github.com/yourusername/todo_app.git
+    - git clone https://github.com/artichaudhary0/todo_app.git
     - cd todo_app
 - 2️⃣ Install dependencies
     - flutter pub get
